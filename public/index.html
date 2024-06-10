@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Dictionary</title>
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" href="styles.css">
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+</head>
+<body>
+    <h1>Audio Dictionary</h1>
+    <input type="file" id="jsonFile" accept=".json">
+    <button id="loadWords">Load Words</button>
+    <div id="wordContainer"></div>
+    <button id="startRecording">Start Recording</button>
+    <button id="stopRecording" disabled>Stop Recording</button>
+    <ul id="wordList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
